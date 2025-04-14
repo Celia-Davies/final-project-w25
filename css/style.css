@@ -9,6 +9,7 @@ body {
 
 .wrapper {
     max-width: 1200px;
+    max-height: auto;
     margin: auto;
 }
 
@@ -117,7 +118,7 @@ nav ul li a:visited {
 .grid-3 {
     background-color: #000;
     color: #fff;
-    padding-top: 1em;
+    padding-top: .5em;
     padding-bottom: 5em;
 }
 
@@ -130,4 +131,24 @@ nav ul li a:visited {
 .slide {
     display: flex;
     flex-wrap: wrap;
+    margin:  auto;
+    gap: 1em;
+    width: auto;
 }
+
+.slide img{
+        width: calc(25% - 10px); 
+        height: auto;
+        border-radius: 1em;
+        margin: 1em;
+        align-items: center;
+      }
+
+
+
+footer{
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}
+
